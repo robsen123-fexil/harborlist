@@ -13,3 +13,4 @@ All notable changes to HarborList are documented here.
 - useMooringQueue hook with fetchMoorings API (request IDs, simulated delays)
 - Vitest test suite under `tests/`
 - GitHub Actions CI workflow
+
