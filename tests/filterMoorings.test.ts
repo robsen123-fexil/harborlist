@@ -12,6 +12,7 @@ const FIXTURE: MooringRequest[] = [
     waitMinutes: 45,
     captain: 'A. Chen',
     lengthFt: 32,
+    notes: '',
   },
   {
     id: 'mr-002',
@@ -22,6 +23,7 @@ const FIXTURE: MooringRequest[] = [
     waitMinutes: 120,
     captain: 'M. Okonkwo',
     lengthFt: 28,
+    notes: '',
   },
   {
     id: 'mr-003',
@@ -32,6 +34,7 @@ const FIXTURE: MooringRequest[] = [
     waitMinutes: 15,
     captain: 'J. Rivera',
     lengthFt: 40,
+    notes: '',
   },
 ];
 
