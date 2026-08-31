@@ -13,6 +13,7 @@ export interface MooringRequest {
   waitMinutes: number;
   captain: string;
   lengthFt: number;
+  notes: string;
 }
 
 export interface MooringFilters {
