@@ -62,10 +62,10 @@ describe('MooringBoard selection integration', () => {
     });
 
     await user.click(screen.getByTestId('select-mr-001'));
-    await user.click(screen.getByTestId('select-mr-002'));
+    await user.click(screen.getByTestId('select-mr-005'));
 
     expect(screen.getByTestId('select-mr-001')).toBeChecked();
-    expect(screen.getByTestId('select-mr-002')).toBeChecked();
+    expect(screen.getByTestId('select-mr-005')).toBeChecked();
     expect(screen.getByTestId('selection-tray')).toHaveTextContent(
       '2 requests selected for assignment',
     );
@@ -74,7 +74,7 @@ describe('MooringBoard selection integration', () => {
     await user.selectOptions(filter, 'slip');
 
     expect(screen.getByTestId('select-mr-001')).toBeChecked();
-    expect(screen.getByTestId('select-mr-002')).toBeChecked();
+    expect(screen.getByTestId('select-mr-005')).toBeChecked();
     expect(screen.getByTestId('selection-tray')).toHaveTextContent(
       '2 requests selected for assignment',
     );
