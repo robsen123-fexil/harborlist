@@ -29,3 +29,4 @@ Use clear, imperative subject lines (e.g. "Add mooring type filter", "Fix select
 ## Reporting issues
 
 Use the GitHub issue templates for bugs and feature requests.
+
