@@ -45,6 +45,10 @@ tests/           unit and integration tests (not colocated)
 - **SelectionTray** — shows how many requests are selected for assignment
 - **StatusChip** / **PriorityMark** — status and priority indicators
 
+## Requirements
+
+Node.js 20+
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
